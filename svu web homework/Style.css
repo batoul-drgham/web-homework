@@ -1,0 +1,162 @@
+
+      
+        body {
+            font-family: Arial, sans-serif;
+            
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        nav {
+            background-color: #7fd682;
+            overflow: hidden;
+            padding: 15px 20px;
+        }
+        nav a {
+            float: right;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav a:hover {
+            background-color: #45a049;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+          background-color: rgb(242, 239, 239);
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        th {
+            background-color: #e6dede;
+        }
+        .details {
+            display: none;
+        }
+        .form-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid #888;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+            z-index: 9;
+            background-color: rgb(250, 246, 246);
+            padding: 20px;
+            width: 300px;
+            box-sizing: border-box;
+        }
+        .form-popup input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 10px 0;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .form-popup button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        .form-popup button.close-btn {
+            background-color: #f44336;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    .container{
+        padding: 20px;
+    }
+ 
+      
+      h1, h2, h3 {
+        color: #2e7d32;
+      }
+      
+      .contact-info {
+        font-weight: bold;
+        color: #4b4b4b;
+      }
+      .contact-info  {
+        list-style-type: none;
+      }
+      .contact-info  a{
+        text-decoration: none;
+        color: #7fd682;
+      }
+
+      .contact-info li:before {
+        content: "\2714  "; 
+        color: #7fd682;
+        padding-left: 5px;
+      }
+      .about{
+          background-color: rgb(235, 231, 231);
+          height: 300px;
+          text-align: center;
+          padding-top: 10%;
+          
+      }
+      .about p{
+          font-size: large;
+      }
+      .hint{
+          font-size: x-large;
+         color: rgb(127, 187, 127);
+       
+      }
+      .divide{
+          display: inline-block;
+          width: 40%;
+      }
+      img{
+          width: 100px;
+          height: 100px;
+      }
+      .stu{
+          list-style-type:square;
+          font-size: large;
+      }
+      .card{
+        background-color: rgb(235, 231, 231);
+        padding: 20px;
+        margin: 10px;
+      }
+      button{
+          font-weight: bold;
+          font-size:medium;
+      }
+      .captcha {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 24px;
+        background-color: #f2f2f2;
+        padding: 10px;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+   
+      
